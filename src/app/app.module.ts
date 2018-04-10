@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
@@ -11,7 +12,6 @@ import { ExperienceComponent } from './experience/experience.component';
 import { HeroService } from './services/hero.service';
 import { MessageService } from './services/message.service';
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +22,8 @@ import { MessageService } from './services/message.service';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    NgbModule.forRoot()
   ],
   providers: [
     HeroService,
