@@ -163,6 +163,14 @@
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@ng-bootstrap/ng-bootstrap/-/ng-bootstrap-1.1.1.tgz#f9e63cab2fec61374a21c0e39b28d91f93f49cb6"
 
+"@ngrx/core@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@ngrx/core/-/core-1.2.0.tgz#882b46abafa2e0e6d887cb71a1b2c2fa3e6d0dc6"
+
+"@ngrx/store@^5.2.0":
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/@ngrx/store/-/store-5.2.0.tgz#627ed74c9cd95462930485d912a557117b23903e"
+
 "@ngtools/json-schema@1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@ngtools/json-schema/-/json-schema-1.2.0.tgz#06e5ecd29e9a37d260a447dd873ea2becd228c4f"
@@ -4290,6 +4298,10 @@ netmask@~1.0.4:
 next-tick@1:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
+
+ngrx-store-logger@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/ngrx-store-logger/-/ngrx-store-logger-0.2.1.tgz#216e99c9527cf3c50862ee2b27fe93fbe8c28671"
 
 no-case@^2.2.0:
   version "2.3.2"
