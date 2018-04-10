@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { MessagesComponent } from './messages/messages.component';
+import { ExperienceComponent } from './experience/experience.component';
 
 import { HeroService } from './services/hero.service';
 import { MessageService } from './services/message.service';
@@ -16,7 +17,8 @@ import { MessageService } from './services/message.service';
     AppComponent,
     HeroesComponent,
     HeroDetailComponent,
-    MessagesComponent
+    MessagesComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule,
