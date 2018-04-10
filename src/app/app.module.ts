@@ -11,6 +11,10 @@ import { ExperienceComponent } from './components/experience/experience.componen
 import { HeroService } from './services/hero.service';
 import { MessageService } from './services/message.service';
 
+import { StoreModule } from '@ngrx/store';
+import { rootReducer } from './app.store';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +25,8 @@ import { MessageService } from './services/message.service';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    StoreModule.forRoot({ rootReducer })
   ],
   providers: [
     HeroService,

@@ -1,5 +1,5 @@
 export interface AppState {
-  example: Experience;
+  experience: Experience;
 }
 
 export interface Experience {
