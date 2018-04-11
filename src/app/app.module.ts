@@ -11,9 +11,9 @@ import { ExperienceComponent } from './components/experience/experience.componen
 import { HeroService } from './services/hero.service';
 import { MessageService } from './services/message.service';
 
+import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { StoreModule } from '@ngrx/store';
 import { rootReducer } from './app.store';
-
 
 @NgModule({
   declarations: [
@@ -26,7 +26,10 @@ import { rootReducer } from './app.store';
   imports: [
     BrowserModule,
     FormsModule,
-    StoreModule.forRoot({ rootReducer })
+    StoreModule.forRoot({ rootReducer }),
+    StoreDevtoolsModule.instrument({
+      maxAge: 25,
+    })
   ],
   providers: [
     HeroService,

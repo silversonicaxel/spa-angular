@@ -2,7 +2,7 @@ import { combineReducers } from '@ngrx/store';
 import { compose } from '@ngrx/core';
 import { storeLogger } from 'ngrx-store-logger';
 
-import { experienceReducer } from './stores/experience.reducer';
+import { experienceReducer } from './store/reducers/experience.reducer';
 
 const reducers = {
   experience: experienceReducer
