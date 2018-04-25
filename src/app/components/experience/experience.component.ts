@@ -29,7 +29,9 @@ export class ExperienceComponent implements OnInit {
 
   onSubmit() {
     this.submitted = true;
-    this.store.dispatch(new ExperienceActions.UpdateExperience({title: this.title, subtitle: this.subtitle, description: this.description}));
+    this.store.dispatch(new ExperienceActions.UpdateExperience({
+      title: this.title, subtitle: this.subtitle, description: this.description
+    }));
   }
 
   onClean() {
